@@ -46,7 +46,7 @@ Events
 
 The project uses **PostgreSQL** as its database. Follow these steps to set it up:
 
-### 1. Create the Database
+1. Create the Database
 Run the following commands in your PostgreSQL shell:
 
 ```sql
