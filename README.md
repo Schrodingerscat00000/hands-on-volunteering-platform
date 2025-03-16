@@ -42,9 +42,17 @@ Events
 1. Clone: `git clone https://github.com/Schrodingerscat00000/hands-on-volunteering-platform.git`
 2. Backend: `cd backend`, `npm install`, configure `.env`, `node index.js`
 3. Frontend: `cd frontend`, `npm install`, `npm start`
-4. Database Setup:
-The project uses PostgreSQL as its database. Follow these steps to set it up:
-1.Create the database: 'CREATE DATABASE handson_db','\q'
+## Database Setup
+
+The project uses **PostgreSQL** as its database. Follow these steps to set it up:
+
+### 1. Create the Database
+Run the following commands in your PostgreSQL shell:
+
+```sql
+CREATE DATABASE handson_db;
+\q
+
 2.Configure Environment Variables:
 In the backend/ folder, create a .env file:
 cd backend
@@ -54,10 +62,13 @@ echo DB_PASSWORD=your_postgres_password >> .env
 echo DB_HOST=localhost >> .env
 echo JWT_SECRET=your_secret_key >> .env
 
+
 Replace your_postgres_password with the password set during PostgreSQL installation.
 Replace your_secret_key with a random string (e.g., mysecret123).
 
-3.(Optional) Seed Initial Data: To populate the database with sample data, run: 'node seedEvents.js'
+3.(Optional) Seed Initial Data: To populate the database with sample data, run:
+node seedEvents.js
+
 
 ## API Documentation
 - **GET /api/events**: List events
