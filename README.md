@@ -11,10 +11,10 @@ HandsOn connects volunteers with community initiatives, enabling event discovery
 
 ## Features
 - Volunteer event listing and registration
+- Login and User Profile
 - Community help requests with comments
 - Team creation with dashboards and leaderboards
-- Volunteer hour logging with peer/auto-verification
-- Point system and certificate generation
+
 
 ## Database Schema
 Users
